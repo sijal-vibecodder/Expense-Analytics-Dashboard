@@ -5,11 +5,21 @@
 A personal expense tracking dashboard built with Python and Streamlit.
 Log spending, set a monthly budget, and see where your money goes.
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-app-FF4B4B?logo=streamlit&logoColor=white)
-![SQLite](https://img.shields.io/badge/Database-SQLite-003B57?logo=sqlite&logoColor=white)
 
 ![Dashboard](dashboard.png)
+<img width="1872" height="1031" alt="Screenshot 2026-10-03 160555" src="https://github.com/user-attachments/assets/e4687819-c088-4b41-910c-9a4b0761e82f" />
+
+<img width="1896" height="1025" alt="Screenshot 2026-10-03 160640" src="https://github.com/user-attachments/assets/c1e01dad-2bd6-4cd1-ae1a-6aaf3511e3e4" />
+
+<img width="1880" height="992" alt="Screenshot 2026-10-03 160931" src="https://github.com/user-attachments/assets/0a3da27c-4cc5-4281-bc61-edbdd0a8546b" />
+
+<img width="1870" height="1015" alt="Screenshot 2026-10-03 160947" src="https://github.com/user-attachments/assets/637a1736-c5de-44f0-a20a-aabc8a2585d1" />
+
+<img width="1883" height="1016" alt="Screenshot 2026-10-03 161001" src="https://github.com/user-attachments/assets/185d9b66-3a8a-405c-94cf-12ebf9fa1d77" />
+
+<img width="1882" height="1002" alt="Screenshot 2026-10-03 161018" src="https://github.com/user-attachments/assets/4cd644d9-acbf-48c9-816f-575b89302e11" />
+
+<img width="1867" height="1016" alt="Screenshot 2026-10-03 161035" src="https://github.com/user-attachments/assets/a510e280-de95-4363-a178-1d4f4b0d9ca7" />
 
 </div>
 
@@ -102,8 +112,7 @@ expense-tracker/
 ## Data and Security
 
 - All data stays on your machine in a local SQLite file.
-- Passwords and security answers are stored as salted PBKDF2-SHA256 hashes.
-- Each user only sees their own expenses and budgets.
+- The application is designed to isolate each user's expense and budget data.
 - `expenses.db` is listed in `.gitignore` so your data is never pushed to GitHub.
 
 ## Known Limitations
